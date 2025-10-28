@@ -1,0 +1,41 @@
+# --- Python build files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.DS_Store
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+Scripts/
+Lib/
+Include/
+
+# --- Streamlit cache & logs ---
+.streamlit/
+logs/
+cache/
+*.log
+
+# --- Model checkpoints ---
+*.h5
+*.keras
+*.ckpt
+*.weights.h5
+*.pb
+
+# --- Jupyter / Colab outputs ---
+.ipynb_checkpoints/
+*.ipynb
+*.csv
+*.zip
+*.mp4
+*.avi
+
+# --- System files ---
+Thumbs.db
+.DS_Store
+desktop.ini
